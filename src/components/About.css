@@ -1,3 +1,5 @@
+/* src/components/About.css */
+
 .about {
   position: relative;
   width: 100vw;
@@ -19,7 +21,7 @@
 .about-title-image {
   width: 260px;
   height: auto;
-  margin-top: 0;
+  margin: 10px auto 0 auto; /* Centrado horizontal y más cerca del borde */
   padding-top: 0;
 }
 
