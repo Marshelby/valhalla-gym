@@ -7,7 +7,7 @@ function Hero() {
       <div className="overlay">
         <div className="hero-content">
           <img
-            src="/titulo-valhalla-naranja.png"
+            src="/valhalla.png"
             alt="Valhalla Gym - Sudor, constancia y gloria"
             className="hero-title-image"
           />
