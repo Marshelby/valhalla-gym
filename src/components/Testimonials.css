@@ -1,25 +1,49 @@
-/* src/components/Tips.css */
+/* src/components/Testimonials.css */
 
-.tips {
-  text-align: center;
+.testimonials {
   background-image: url('/fondo-about-rojo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 60px 20px;
-}
-
-.tips ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-.tips li {
-  background-color: #1a1a1a;
   color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.testimonials-title {
+  font-size: 2rem;
+  color: #ff3c00;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 24px 30px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.testimonial .quote {
+  font-size: 1.1rem;
+  line-height: 1.6;
   margin-bottom: 12px;
-  padding: 14px 20px;
-  border-radius: 8px;
-  font-size: 1.05rem;
+}
+
+.testimonial .author {
+  font-weight: 600;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+  color: #ccc;
+}
+
+.before-after-placeholder {
+  margin-top: 35px;
+  font-style: italic;
+  font-size: 1rem;
+  color: #ddd;
 }
