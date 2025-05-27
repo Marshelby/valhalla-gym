@@ -6,7 +6,7 @@ function Promos() {
     <section className="promos">
       <h2>Promociones</h2>
       <div className="promo-card">
-        <h3>🔥 Planes Libres con Descuento</h3>
+        <h3>🔥 Planes Libres con Descuento 🔥</h3>
         <p>
           Aprovecha nuestra promoción especial en planes libres y entrena sin límites.
         </p>
