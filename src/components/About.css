@@ -10,6 +10,28 @@
   color: #dddddd;
 }
 
-.about strong {
+.section-title {
+  font-size: 2rem;
   color: #ff3c00;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.marca {
+  color: #ff3c00;
+  font-weight: 600;
+}
+
+.horario {
+  color: #ff3c00;
+  font-weight: bold;
+}
+
+.frase-final {
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
+  color: #ff3c00;
+  font-weight: 600;
+  font-style: italic;
 }
