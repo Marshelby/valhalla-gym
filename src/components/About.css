@@ -10,10 +10,11 @@
 }
 
 .about-title-image {
-  max-width: 90%;
-  width: 600px;
+  max-width: 65%;
+  width: 360px;
   height: auto;
-  margin-bottom: 20px;
+  margin: 0 auto 30px auto;
+  display: block;
 }
 
 .about p {
