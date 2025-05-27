@@ -1,0 +1,27 @@
+/* src/components/Services.css */
+
+.services {
+  text-align: center;
+}
+
+.services ul {
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.services li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.note {
+  font-size: 0.95rem;
+  color: #aaaaaa;
+  margin-top: 20px;
+  font-style: italic;
+}

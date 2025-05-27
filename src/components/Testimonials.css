@@ -1,0 +1,30 @@
+/* src/components/Testimonials.css */
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+.before-after-placeholder {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #ff3c00;
+}

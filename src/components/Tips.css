@@ -1,0 +1,20 @@
+/* src/components/Tips.css */
+
+.tips {
+  text-align: center;
+}
+
+.tips ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.tips li {
+  background-color: #1a1a1a;
+  color: #fff;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 1.05rem;
+}

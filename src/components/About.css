@@ -1,0 +1,15 @@
+/* src/components/About.css */
+
+.about {
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #dddddd;
+}
+
+.about strong {
+  color: #ff3c00;
+}

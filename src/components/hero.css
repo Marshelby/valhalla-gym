@@ -1,0 +1,38 @@
+/* src/components/Hero.css */
+
+.hero {
+  background-image: url('/fondo-gym.jpg'); /* cambia este fondo si lo deseas */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 120px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #ff3c00;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #ff3c00;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e83600;
+}
