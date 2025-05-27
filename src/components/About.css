@@ -2,7 +2,7 @@
 
 .about {
   text-align: center;
-  background-image: url('/fondo-about-madera.jpg');
+  background-image: url('/fondo-about-rojo.jpg'); /* Imagen con tono rojizo */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
