@@ -1,38 +1,85 @@
 /* src/components/Hero.css */
 
 .hero {
-  background-image: url('/fondo-gym.jpg'); /* cambia este fondo si lo deseas */
+  position: relative;
+  height: 100vh;
+  background-image: url('/fondo-gym.jpg');
   background-size: cover;
   background-position: center;
-  text-align: center;
-  padding: 120px 20px;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.65); /* oscurece la imagen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  animation: fadeIn 1.2s ease;
+}
+
+.hero-content h1 {
+  font-size: 3.8rem;
+  font-weight: 900;
   color: #ffffff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .slogan {
   font-size: 1.5rem;
-  margin-top: 10px;
   color: #ff3c00;
+  margin-bottom: 30px;
 }
 
 .cta-btn {
-  display: inline-block;
-  margin-top: 20px;
   background-color: #ff3c00;
   color: #fff;
-  padding: 12px 24px;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 6px;
   transition: background-color 0.3s ease;
 }
 
 .cta-btn:hover {
   background-color: #e83600;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .slogan {
+    font-size: 1.2rem;
+  }
+
+  .cta-btn {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
 }
