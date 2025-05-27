@@ -2,6 +2,26 @@
 
 .equipment {
   text-align: center;
+  padding: 60px 20px;
+  background-image: url('/fondo-about-rojo.jpg'); /* NOMBRE CORRECTO */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.equipment h2 {
+  font-size: 2rem;
+  color: #ff3c00;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.equipment p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-weight: 400;
 }
 
 .equipment ul {
@@ -14,16 +34,23 @@
 }
 
 .equipment li {
-  background-color: #1a1a1a;
-  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 14px 20px;
   border-radius: 8px;
-  font-size: 1.05rem;
-  color: #fff;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.equipment li span {
+  margin: 0 6px;
 }
 
 .note {
   font-size: 0.95rem;
-  color: #aaaaaa;
-  margin-top: 20px;
+  color: #dddddd;
+  margin-top: 24px;
   font-style: italic;
 }
