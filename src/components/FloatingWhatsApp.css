@@ -5,15 +5,22 @@
   bottom: 20px;
   right: 20px;
   background-color: #25d366;
-  color: white;
-  font-size: 28px;
-  padding: 14px;
   border-radius: 50%;
-  text-align: center;
+  padding: 12px;
   z-index: 999;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+}
+
+.floating-whatsapp img {
+  width: 28px;
+  height: 28px;
 }
 
 .floating-whatsapp:hover {

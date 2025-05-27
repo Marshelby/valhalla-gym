@@ -8,7 +8,7 @@ function FloatingWhatsApp() {
       className="floating-whatsapp"
       aria-label="Contáctanos por WhatsApp"
     >
-      💬
+      <img src="/whatsapp-icon.svg" alt="WhatsApp" />
     </a>
   );
 }
