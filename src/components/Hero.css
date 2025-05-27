@@ -17,7 +17,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.45); /* más transparente para dejar ver fondo */
+  background-color: rgba(0, 0, 0, 0.45);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,17 +29,10 @@
   animation: fadeIn 1.2s ease;
 }
 
-.hero-content h1 {
-  font-size: 3.8rem;
-  font-weight: 900;
-  color: #ffffff;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.slogan {
-  font-size: 1.5rem;
-  color: #ff3c00;
+.hero-title-image {
+  max-width: 90%;
+  width: 700px;
+  height: auto;
   margin-bottom: 30px;
 }
 
@@ -71,12 +64,8 @@
 }
 
 @media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2.4rem;
-  }
-
-  .slogan {
-    font-size: 1.2rem;
+  .hero-title-image {
+    width: 90%;
   }
 
   .cta-btn {

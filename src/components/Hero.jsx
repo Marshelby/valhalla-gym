@@ -6,8 +6,11 @@ function Hero() {
     <section className="hero">
       <div className="overlay">
         <div className="hero-content">
-          <h1>Valhalla Gym</h1>
-          <p className="slogan">Sudor, constancia y gloria</p>
+          <img
+            src="/titulo-valhalla.png"
+            alt="Valhalla Gym - Sudor, constancia y gloria"
+            className="hero-title-image"
+          />
           <a
             href="https://wa.me/56962496012"
             className="cta-btn"
