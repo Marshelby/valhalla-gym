@@ -9,19 +9,24 @@ import Promos from './components/Promos'
 import Testimonials from './components/Testimonials'
 import Tips from './components/Tips'
 import Contact from './components/Contact'
+import FloatingWhatsApp from './components/FloatingWhatsApp'
+import './components/FloatingWhatsApp.css'
 
 function App() {
   return (
-    <div>
-      <Hero />
-      <About />
-      <Services />
-      <Equipment />
-      <Promos />
-      <Testimonials />
-      <Tips />
-      <Contact />
-    </div>
+    <>
+      <div>
+        <Hero />
+        <About />
+        <Services />
+        <Equipment />
+        <Promos />
+        <Testimonials />
+        <Tips />
+        <Contact />
+      </div>
+      <FloatingWhatsApp />
+    </>
   )
 }
 
