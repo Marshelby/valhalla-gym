@@ -1,56 +1,55 @@
 /* src/components/About.css */
 
 .about {
-  text-align: center;
+  width: 100%;
+  padding: 80px 20px 60px;
   background-image: url('/fondo-about-rojo.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  padding: 60px 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 .about-title-image {
-  max-width: 65%;
-  width: 360px;
+  width: 420px;
   height: auto;
-  margin: 0 auto 30px auto;
-  display: block;
+  margin-top: -10px; /* Subido más cerca del borde superior */
+  margin-bottom: 20px;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .about p {
-  margin-bottom: 20px;
-  font-size: 1.15rem;
-  color: #f2f2f2;
-  font-family: 'Montserrat', sans-serif;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  max-width: 960px;
+  margin: 16px auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
-.section-title {
-  font-size: 2.2rem;
-  color: #ff3c00;
-  margin-bottom: 1rem;
+.about span {
   font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 0.5px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.marca {
-  color: #ff3c00;
-  font-weight: 600;
-}
-
-.horario {
+.about .horario {
   color: #ff3c00;
   font-weight: bold;
 }
 
-.frase-final {
-  margin-top: 1.5rem;
-  font-size: 1.2rem;
-  color: #ff3c00;
-  font-weight: 600;
-  font-style: italic;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+.about .final {
+  font-weight: bold;
+  color: white;
+  margin-top: 24px;
+  font-size: 1.05rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
