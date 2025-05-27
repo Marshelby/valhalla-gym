@@ -4,7 +4,11 @@ import './About.css';
 function About() {
   return (
     <section className="about">
-      <h2 className="section-title">Entrena sin excusas</h2>
+      <img
+        src="/entrena-sin-excusas.png"
+        alt="Entrena sin excusas"
+        className="about-title-image"
+      />
       <p>
         En <span className="marca">Valhalla Gym</span> te ofrecemos un espacio privado, completo y diseñado para que alcances tu mejor versión.
         Entrenamientos personalizados, planes libres y asesorías online para todos los niveles.
