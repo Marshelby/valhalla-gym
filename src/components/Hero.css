@@ -27,11 +27,14 @@
 
 .hero-content {
   animation: fadeIn 1.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title-image {
-  max-width: 90%;
-  width: 700px;
+  max-width: 80%;
+  width: 520px;
   height: auto;
   margin-bottom: 30px;
 }
@@ -65,7 +68,7 @@
 
 @media (max-width: 768px) {
   .hero-title-image {
-    width: 90%;
+    width: 85%;
   }
 
   .cta-btn {
