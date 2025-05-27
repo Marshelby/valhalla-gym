@@ -4,7 +4,7 @@ import './Services.css';
 function Services() {
   return (
     <section className="services">
-      <h2>Servicios</h2>
+      <h2 className="section-title">Servicios</h2>
       <ul>
         <li>✅ Entrenamientos personalizados según tus metas</li>
         <li>✅ Planes libres para entrenar con autonomía</li>
