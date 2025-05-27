@@ -8,7 +8,12 @@ function Hero() {
         <div className="hero-content">
           <h1>Valhalla Gym</h1>
           <p className="slogan">Sudor, constancia y gloria</p>
-          <a href="https://wa.me/56987654321" className="cta-btn" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://wa.me/56962496012"
+            className="cta-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Entrena con nosotros
           </a>
         </div>
