@@ -3,7 +3,7 @@
 .equipment {
   text-align: center;
   padding: 60px 20px;
-  background-image: url('/fondo-about-rojo.jpg'); /* NOMBRE CORRECTO */
+  background-image: url('/fondo-about-rojo.jpg'); /* Imagen usada en todas las secciones */
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -11,17 +11,20 @@
 }
 
 .equipment h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #ff3c00;
   margin-bottom: 30px;
-  font-weight: bold;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
-.equipment p {
+.intro {
   font-size: 1.1rem;
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto 30px;
   font-weight: 400;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .equipment ul {
@@ -30,22 +33,24 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 12px;
+  gap: 14px;
 }
 
 .equipment li {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 14px 20px;
-  border-radius: 8px;
-  font-size: 1.1rem;
+  border-radius: 10px;
+  font-size: 1.05rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
 }
 
-.equipment li span {
-  margin: 0 6px;
+.equipment li:hover {
+  transform: scale(1.03);
 }
 
 .note {
@@ -53,4 +58,5 @@
   color: #dddddd;
   margin-top: 24px;
   font-style: italic;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
