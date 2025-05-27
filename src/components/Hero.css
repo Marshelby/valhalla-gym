@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-image: url('/fondo.jpg');
+  background-image: url('/fondo-claro.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.45); /* más transparente para dejar ver fondo */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@
 }
 
 .cta-btn {
-  background-color: #ff3c00;
+  background-color: #ff3c00 !important;
   color: #fff;
   padding: 14px 28px;
   font-size: 1.1rem;
@@ -56,7 +56,7 @@
 }
 
 .cta-btn:hover {
-  background-color: #e83600;
+  background-color: #e83600 !important;
 }
 
 @keyframes fadeIn {
