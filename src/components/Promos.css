@@ -1,32 +1,35 @@
-/* src/components/Promos.css */
+/* src/components/Testimonials.css */
 
-.promos {
+.testimonials {
   text-align: center;
+  background-image: url('/fondo-about-rojo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
 }
 
-.promo-card {
+.testimonial {
   background-color: #1a1a1a;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 60, 0, 0.3);
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.promo-card h3 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  color: #ff3c00;
-}
-
-.promo-card p {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #fff;
   font-size: 1.1rem;
-  color: #eeeeee;
-  margin-bottom: 10px;
+  max-width: 700px;
+  margin: 20px auto;
 }
 
-.disclaimer {
-  font-size: 0.9rem;
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.95rem;
   color: #aaaaaa;
   font-style: italic;
+}
+
+.before-after-placeholder {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #ff3c00;
 }

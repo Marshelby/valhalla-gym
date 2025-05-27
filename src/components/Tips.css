@@ -1,20 +1,37 @@
-/* src/components/Tips.css */
+/* src/components/Promos.css */
 
-.tips {
+.promos {
   text-align: center;
+  background-image: url('/fondo-about-rojo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
 }
 
-.tips ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-.tips li {
+.promo-card {
   background-color: #1a1a1a;
-  color: #fff;
-  margin-bottom: 12px;
-  padding: 14px 20px;
-  border-radius: 8px;
-  font-size: 1.05rem;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 60, 0, 0.3);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.promo-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ff3c00;
+}
+
+.promo-card p {
+  font-size: 1.1rem;
+  color: #eeeeee;
+  margin-bottom: 10px;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  font-style: italic;
 }
