@@ -4,7 +4,11 @@ import './Equipment.css';
 function Equipment() {
   return (
     <section className="equipment">
-      <h2>EQUIPAMIENTO</h2>
+      <img
+        src="/equipamiento.png"
+        alt="Equipamiento"
+        className="equipment-title-image"
+      />
       <p className="intro">
         Forja tu fuerza con el equipamiento de batalla de Valhalla Gym:
       </p>
