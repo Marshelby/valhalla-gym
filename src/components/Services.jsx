@@ -5,7 +5,7 @@ function Services() {
   return (
     <section className="services">
       <img
-        src="/servicioshoy.png"
+        src="/servicios.png"
         alt="Servicios"
         className="services-title-image"
       />
