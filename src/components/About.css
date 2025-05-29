@@ -1,14 +1,31 @@
 .about {
-  padding: 0;
+  position: relative;
+  padding-top: 0;
   background-image: url('/fondo-about-rojo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
   font-family: 'Outfit', sans-serif;
+  overflow: hidden;
+}
+
+.about-background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/fondo-about-madera.jpg'); /* Asegúrate que este archivo exista */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 1;
 }
 
 .about .hero-content {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,10 +34,11 @@
 }
 
 .about-title-image {
-  width: 480px;
-  max-width: 90%;
-  margin: 2rem auto 1rem;
+  width: 360px; /* más pequeño */
+  max-width: 80%;
+  margin: 0 auto 1rem;
   display: block;
+  margin-top: 0;
 }
 
 .about p {

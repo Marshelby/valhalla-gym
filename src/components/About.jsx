@@ -4,6 +4,7 @@ import './About.css';
 function About() {
   return (
     <section className="about">
+      <div className="about-background-layer" />
       <div className="hero-content">
         <img
           src="/entrena-sin-excusas.png"
