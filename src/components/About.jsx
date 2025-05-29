@@ -7,7 +7,7 @@ function About() {
       <div className="about-background-layer" />
       <div className="hero-content">
         <img
-          src="/entrena.png"
+          src="/entrenahoy.png"
           alt="Entrena sin excusas"
           className="about-title-image"
         />
