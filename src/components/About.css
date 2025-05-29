@@ -1,74 +1,43 @@
-/* src/components/About.css */
-
 .about {
-  position: relative;
-  width: 100vw;
-  min-height: 100vh;
   padding: 0;
-  margin: 0;
   background-image: url('/fondo-about-rojo.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.about .hero-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   text-align: center;
-  animation: fadeIn 1.2s ease;
+  padding: 2rem 1rem;
 }
 
 .about-title-image {
-  width: 260px;
-  height: auto;
-  margin: 10px auto 0 auto; /* Centrado horizontal y más cerca del borde */
-  padding-top: 0;
+  width: 480px;
+  max-width: 90%;
+  margin: 2rem auto 1rem;
+  display: block;
 }
 
 .about p {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  max-width: 960px;
   font-family: 'Outfit', sans-serif;
-  color: #ffffff;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  max-width: 950px;
-  margin: 10px auto;
 }
 
-.about span {
-  font-weight: 600;
-}
-
-.about .horario {
+.about .highlight {
   color: #ff3c00;
-  font-weight: 600;
-}
-
-.about .final {
   font-weight: bold;
-  color: #ffffff;
-  margin-top: 20px;
-  font-size: 1.1rem;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (max-width: 768px) {
-  .about p {
-    font-size: 1rem;
-    padding: 0 15px;
-  }
-
-  .about-title-image {
-    width: 80%;
-    margin-top: 0;
-  }
+.about .final-frase {
+  font-weight: bold;
+  margin-top: 1.2rem;
+  font-size: 1.05rem;
 }
