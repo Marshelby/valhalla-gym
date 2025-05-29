@@ -4,7 +4,11 @@ import './Testimonials.css';
 function Testimonials() {
   return (
     <section className="testimonials">
-      <h2 className="testimonials-title">🛡️ Testimonios y Resultados 🛡️</h2>
+      <img
+        src="/testimonios.png"
+        alt="Testimonios y Resultados"
+        className="testimonials-title-image"
+      />
 
       <div className="testimonial">
         <p className="quote">

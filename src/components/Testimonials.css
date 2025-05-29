@@ -18,6 +18,13 @@
   margin-bottom: 40px;
 }
 
+.testimonials-title-image {
+  width: 300px;
+  max-width: 90%;
+  margin: 0 auto 40px;
+  display: block;
+}
+
 .testimonial {
   background-color: rgba(0, 0, 0, 0.65);
   padding: 24px 30px;
