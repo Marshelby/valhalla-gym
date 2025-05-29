@@ -31,12 +31,13 @@
   align-items: center;
   text-align: center;
   padding: 2rem 1rem;
+  padding-top: 0;
 }
 
 .about-title-image {
-  width: 360px; /* más pequeño */
+  width: 300px; /* aún más pequeña */
   max-width: 80%;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.5rem;
   display: block;
   margin-top: 0;
 }
