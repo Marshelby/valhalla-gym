@@ -4,7 +4,11 @@ import './Services.css';
 function Services() {
   return (
     <section className="services">
-      <h2 className="section-title">Servicios</h2>
+      <img
+        src="/servicios.png"
+        alt="Servicios"
+        className="services-title-image"
+      />
       <ul>
         <li>✅ Entrenamientos personalizados según tus metas</li>
         <li>✅ Planes libres para entrenar con autonomía</li>

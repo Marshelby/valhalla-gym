@@ -10,14 +10,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.section-title {
-  font-size: 2rem;
-  color: #ff3c00;
-  margin-bottom: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  letter-spacing: 0.5px;
+.services-title-image {
+  width: 300px;
+  max-width: 90%;
+  margin: 0 auto 1.5rem;
+  display: block;
 }
 
 .services ul {
