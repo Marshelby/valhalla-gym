@@ -4,7 +4,11 @@ import './Promos.css';
 function Promos() {
   return (
     <section className="promos">
-      <h2>Promociones</h2>
+      <img
+        src="/promociones.png"
+        alt="Promociones"
+        className="promos-title-image"
+      />
       <div className="promo-card">
         <h3>🔥 Planes Libres con Descuento 🔥</h3>
         <p>

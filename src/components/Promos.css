@@ -10,12 +10,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.promos h2 {
-  color: #ff3c00;
-  font-size: 2rem;
-  margin-bottom: 40px;
-  font-weight: bold;
-  letter-spacing: 1px;
+.promos-title-image {
+  width: 300px;
+  max-width: 90%;
+  margin: 0 auto 40px;
+  display: block;
 }
 
 .promo-box {
